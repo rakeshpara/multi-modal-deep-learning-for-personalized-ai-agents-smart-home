@@ -1,0 +1,2 @@
+# multi-modal-deep-learning-for-personalized-ai-agents-smart-home
+AI-powered gesture-based smart home automation system using CNN (DenseNet121), Reinforcement Learning, and IoT (ESP32). Enables real-time control of appliances like lights and door locks, learns user behavior for personalized automation, and improves accessibility for elderly and differently-abled users without relying on voice commands.
