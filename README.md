@@ -34,21 +34,40 @@ Reinforcement Learning agent selects optimal action
 Command is sent to ESP32
 Appliances are controlled (light, door lock)
 
-#Hardware Components
-ESP32 (Main controller)
-Ultrasonic Sensor (Distance detection)
-PIR Sensor (Motion detection)
-DHT Sensor (Temperature & Humidity)
-Servo Motor (Door lock system)
-LED (Light control)
+#  Hardware Components
+The system integrates multiple IoT components for real-time smart home automation:
+* **ESP32 Microcontroller**
+  Main processing unit used for controlling devices and communicating with sensors and actuators.
+* **Raspberry Pi (Optional / Processing Unit)**
+  Used for running AI models and handling gesture recognition (if deployed on edge device).
+* **Ultrasonic Sensor (HC-SR04)**
+  Measures distance for proximity-based actions and automation triggers.
+* **PIR Sensor (Passive Infrared Sensor)**
+  Detects human motion to enable smart activation of devices.
+* **DHT11 Sensor**
+  Measures temperature and humidity for environmental monitoring.
+* **Servo Motor (SG90)**
+  Controls door lock mechanism (open/close actions).
+* **LED Module**
+  Simulates light control (ON/OFF automation).
+* **Micro USB Cable**
+  Provides power supply and programming interface for ESP32.
+* **Breadboard & Jumper Wires**
+  Used for circuit connections and prototyping.
+
+# Hardware Working
+* The AI model detects hand gestures via webcam.
+* The predicted gesture is processed and sent as a command.
+* ESP32 receives the command and triggers actions:
+  * LED turns ON/OFF (light control)
+  * Servo motor rotates (door lock/unlock)
+* Sensors (PIR, Ultrasonic, DHT11) provide additional environmental data for smart automation.
 
 # Hardware Output
 ### 🔹 Smart Home Setup
 ![Smart Home Setup](images/setup.jpg)
 ### 🔹 Working Prototype
 ![Working Prototype](images/prototype.jpg)
-
-
 
 
 # Results
