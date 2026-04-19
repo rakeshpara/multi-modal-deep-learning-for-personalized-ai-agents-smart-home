@@ -1,5 +1,47 @@
-opencv-python==4.8.0.76
-tensorflow==2.13.0
-numpy==1.24.3
-mediapipe==0.10.7
-pyserial==3.5
+## System Requirements
+
+### Software Requirements
+
+* Python 3.8 or above
+* Arduino IDE (for ESP32 programming)
+* Required Python libraries:
+
+  * opencv-python==4.8.0.76
+  * tensorflow==2.13.0
+  * numpy==1.24.3
+  * mediapipe==0.10.7
+  * pyserial==3.5
+
+---
+
+### Hardware Requirements
+
+* ESP32 / Arduino Board (Main controller)
+* Raspberry Pi (optional for edge AI processing)
+* Ultrasonic Sensor (HC-SR04 – distance detection)
+* PIR Motion Sensor (human detection)
+* DHT11 Sensor (temperature & humidity monitoring)
+* Servo Motor (SG90 – door lock mechanism)
+* LED (light control)
+* Micro USB Cable (power supply & programming)
+* Breadboard (circuit prototyping)
+* Jumper Wires (connections)
+* Power Supply
+
+---
+
+###  Additional Requirements
+
+* Webcam (for real-time gesture recognition)
+* Basic IoT setup components
+* Stable power connection
+
+---
+
+### Installation
+
+```bash
+git clone https://github.com/rakeshpara/multi-modal-deep-learning-for-personalized-ai-agents-smart-home.git
+cd multi-modal-deep-learning-for-personalized-ai-agents-smart-home
+pip install -r requirements.txt
+```
