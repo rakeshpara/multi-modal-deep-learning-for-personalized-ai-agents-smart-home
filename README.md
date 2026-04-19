@@ -61,8 +61,8 @@ Improved usability for elderly users
 Model files are included for demonstration purposes. For better performance, retraining with a custom dataset is recommended.
 
 # Installation
-git clone https://github.com/rakeshpara/gesture-based-smart-home-ai.git
-cd gesture-based-smart-home-ai
+git clone https://github.com/rakeshpara/multi-modal-deep-learning-for-personalized-ai-agents-smart-home.git
+cd multi-modal-deep-learning-for-personalized-ai-agents-smart-home
 pip install -r requirements.txt
 
 # Usage
